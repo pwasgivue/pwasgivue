@@ -1,0 +1,84 @@
+/* Estilos globales */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+}
+
+/* Ajustes para AdminLTE */
+.content-wrapper {
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.small-box {
+  text-decoration: none;
+  color: white;
+}
+
+.small-box:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilos para las tarjetas del dashboard */
+.small-box {
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.small-box > .inner {
+  padding: 10px;
+}
+
+.small-box h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.small-box .icon {
+  color: rgba(0,0,0,.15);
+  z-index: 0;
+}
+
+.small-box .icon > i {
+  font-size: 70px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: transform .3s linear;
+}
+
+.small-box:hover .icon > i {
+  transform: scale(1.1);
+}
+
+/* Estilos para las tablas */
+.table-responsive {
+  margin-bottom: 1rem;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Estilos para los badges */
+.badge {
+  padding: 0.5em 0.75em;
+  font-weight: 500;
+}
